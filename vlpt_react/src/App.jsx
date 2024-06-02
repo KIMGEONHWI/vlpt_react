@@ -1,12 +1,12 @@
 import Hello from "./Hello";
+import Wrapper from "./Wrapper";
 
 function App() {
   return (
-    <>
-      <Hello />
-      <Hello />
-      <Hello />
-    </>
+    <Wrapper>
+      <Hello name="react" color="red" />
+      <Hello color="pink" />
+    </Wrapper>
   );
 }
 
