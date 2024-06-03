@@ -1,4 +1,4 @@
-import InputSample from "./InputSample";
+import InputSample from './InputSample';
 
 function App() {
   return <InputSample />;
