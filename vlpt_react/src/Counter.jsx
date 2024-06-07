@@ -1,14 +1,14 @@
 import { useState } from 'react';
 
 function Counter() {
-  const [number, setNumber] = useState(0);
+  const [number, setnumber] = useState(0);
 
   const onIncrease = () => {
-    setNumber(number + 1);
+    setnumber(number + 1);
   };
 
   const onDecrease = () => {
-    setNumber(number - 1);
+    setnumber(number - 1);
   };
   return (
     <div>
